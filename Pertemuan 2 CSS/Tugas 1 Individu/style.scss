@@ -1,0 +1,28 @@
+.warnaijotua{
+    background-color: #84a9ac;
+}
+
+#warnakrem{
+    background-color: #eeeeee !important;
+}
+
+#warnahitam{
+    background-color: #222831 !important;
+}
+
+#spasibawah{
+    margin-bottom: 2cm;
+}
+
+.hoverlogo{
+    max-width: 100px;
+    object-fit: contain;
+    &:hover{
+        transition-duration: 100ms;
+        filter: invert(100%);
+    }
+}
+
+.spasi1cm{
+    margin-bottom: 1cm;
+}
