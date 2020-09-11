@@ -30,4 +30,16 @@
 .spasi1cm {
   margin-bottom: 1cm;
 }
+
+.spasistghcm {
+  margin-bottom: 0.5cm;
+}
+
+.name {
+  font-family: 'Roboto Slab', serif !important;
+}
+
+.h1 {
+  text-shadow: 2px 2px #ff0000;
+}
 /*# sourceMappingURL=style.css.map */
