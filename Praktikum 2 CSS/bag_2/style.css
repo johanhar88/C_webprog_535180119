@@ -1,0 +1,21 @@
+p.satu {
+    font-size: xx-small;
+    font-weight: bolder;
+}
+
+p.dua {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+p.tiga {
+    font-size: 3pc;
+}
+
+p.empat {
+    font-size: 70%;
+}
+
+p.bold {
+    font-weight: bold;
+}

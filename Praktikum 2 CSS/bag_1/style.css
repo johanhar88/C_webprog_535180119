@@ -1,0 +1,29 @@
+.warna {
+    color:orange;
+}
+
+.isiteks{
+    color: #99ccff;
+    font-size: 36px;
+}
+
+p.isiteks1{
+    color: #ff0000;
+    font-size: 36px;
+
+}
+
+#footer {
+    color: blue;
+    border: 1px solid black;
+}
+
+div > p {
+    color: white;
+    background: green;
+    padding: 2px;
+}
+
+div ~ p {
+    background-color: yellow;
+}
