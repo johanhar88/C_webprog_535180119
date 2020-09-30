@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Java Script DataType</title>
+
+    <script>
+        function Add(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1)+Number(inp2);
+        }
+        function Sub(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1)-Number(inp2);
+        }
+        function Bagi(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1)/Number(inp2);
+        }
+        function Kali(id, inp1, inp2){
+            document.getElementById(id).value = Number(inp1)*Number(inp2);
+        }
+        function Mod(id, inp1, inp2){
+            document.getElementById(id).value = Number(inp1)%Number(inp2);
+        }
+        function Pngkt(id, inp1, inp2){
+            document.getElementById(id).value = Math.pow(inp1,inp2);
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+    Bil 1 :  <input type="number" id="inp1" />
+    <br>
+    <br>
+    Bil 2 : <input type="number" id="inp2" />
+    <br>
+    <br>
+
+    Hasil : <input type="text" id="res" />
+    <br>
+    <br>
+
+    <button type="button"
+        onclick='Add("res", document.getElementById("inp1").value , document.getElementById("inp2").value)'
+        style="height:50px;width:50px">+</button>
+    <button type="button"
+        onclick='Sub("res", document.getElementById("inp1").value , document.getElementById("inp2").value)'
+        style="height:50px;width:50px">-</button>
+    <button type="button"
+        onclick='Kali("res", document.getElementById("inp1").value , document.getElementById("inp2").value)'
+        style="height:50px;width:50px">X</button>
+    <button type="button"
+        onclick='Bagi("res", document.getElementById("inp1").value , document.getElementById("inp2").value)'
+        style="height:50px;width:50px">/</button>
+    <button type="button"
+        onclick='Mod("res", document.getElementById("inp1").value , document.getElementById("inp2").value)'
+        style="height:50px;width:50px">%</button>
+    <button type="button"
+        onclick='Pngkt("res", document.getElementById("inp1").value , document.getElementById("inp2").value)'
+        style="height:50px;width:50px">^</button>
+
+
+
+</body>
+
+</html>
